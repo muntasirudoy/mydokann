@@ -1142,7 +1142,7 @@ width: 200%;
   height: 100%;
   background: rgb(245, 245, 245);
   border-radius: 25px;
-   top: 70px;
+   top: 62px;
   position: absolute;
   padding: 10px;
 
@@ -1763,7 +1763,7 @@ display: flex;
 flex-direction: column;
 border: 1px solid rgb(236, 236, 236);
  
-padding: 15px;
+padding: 8px;
 position: relative;
 margin: 0px;
 transition:  .3s ease-in-out;
@@ -2488,7 +2488,7 @@ z-index: 2;
 #home-weekly-sale .wcard{
   display: flex;
   position: relative;
-  margin: 20px 10px;
+  margin: 20px 0px;
   cursor: pointer;
   transition: 0.3s ease-in-out;
 }
@@ -2603,7 +2603,7 @@ transition: 0.4s ease-in-out;
 #home-weekly-sale .section-name{
 
   position: relative;
-  margin-left: 15px;
+ 
   display:flex ;
   
 }
@@ -2707,13 +2707,13 @@ color: #fff
 #home-just-for-you .jcard{
 
   background: rgb(255, 255, 255);
-  margin: 20px 10px;
   height: 240px;
   padding: 10px;
-  border-radius: 10px;
-  box-shadow: 0px 0px 8px rgba(0,0,0,0.1);
+  border: .5px solid rgb(233, 233, 233);
 }
-
+#home-just-for-you .all{
+  padding-top: 20px;
+}
 #home-just-for-you .img{
   width: 100%;
   background: rgb(241, 241, 241);
@@ -2734,8 +2734,6 @@ color: #fff
 
 
 #home-just-for-you .section-name{
-  margin-left: 15px;
- 
   position: relative;
   display: flex;
 }
