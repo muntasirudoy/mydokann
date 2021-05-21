@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" />
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/">
+        <link rel="stylesheet" href="..//amarDokan/assets/css/owl.carousel.min.css">
+       
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
+        <link rel="stylesheet" href="assets/scss/cart.scss">
+
+        <title>Amar Dokan</title>
+    </head>
+    <body>
+        <!--========== HEADER ==========-->
+        <header class="header">
+               
+            <div class="container">
+
+            <div class="header__container">
+                <div class="header__toggle">
+                    <i class='bx bx-menu' id="header-toggle"></i>
+                </div>
+                <label for="sub-nav" class="sub-nav-toggle"><span> <i class="fa fa-search" aria-hidden="true"></i>  </span></label>
+           </div>
+            
+            <!--search-icon---------------------->
+           
+                <input type="checkbox" id="sub-nav">
+               
+                <nav id="sub-navigation">
+                        <div class="wrapper">
+                            <div class="search-input">
+                              <a href="" target="_blank" hidden></a>
+                              <input type="text" placeholder="Type to search..">
+                              <div class="autocom-box">
+                                <!-- here list are inserted from javascript -->
+                              </div>
+                              <div class="icon">Search</div>
+
+                            </div>
+                          </div>
+                      </div>                  
+                  </nav>
+            </div>
+
+        </header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- .....................MOBILE  HEADER END ---------------------------------------- -->
+
+
+
+
+
+
+
+
+
+        <!--========== NAV ==========-->
+        <div class="nav" id="navbar">
+            <nav class="nav__container">
+                <div>
+                    <a href="#" class="nav__link nav__logo">
+                        <i class='bx bxs-disc nav__icon' ></i>
+                        <span class="nav__logo-name">Bedimcode</span>
+                    </a>
+    
+                    <div class="nav__list">
+                        <div class="nav__items">
+                            <h3 class="nav__subtitle">Profile</h3>
+    
+                            <a href="#" class="nav__link active">
+                                <i class='bx bx-home nav__icon' ></i>
+                                <span class="nav__name">Home</span>
+                            </a>
+                            
+                            <div class="nav__dropdown">
+                                <a href="#" class="nav__link">
+                                    <i class='bx bx-user nav__icon' ></i>
+                                    <span class="nav__name">Profile</span>
+                                    <i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i>
+                                </a>
+
+                                <div class="nav__dropdown-collapse">
+                                    <div class="nav__dropdown-content">
+                                        <a href="#" class="nav__dropdown-item">Passwords</a>
+                                        <a href="#" class="nav__dropdown-item">Mail</a>
+                                        <a href="#" class="nav__dropdown-item">Accounts</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <a href="#" class="nav__link">
+                                <i class='bx bx-message-rounded nav__icon' ></i>
+                                <span class="nav__name">Messages</span>
+                            </a>
+                        </div>
+    
+                        <div class="nav__items">
+                            <h3 class="nav__subtitle">Menu</h3>
+    
+                            <div class="nav__dropdown">
+                                <a href="#" class="nav__link">
+                                    <i class='bx bx-bell nav__icon' ></i>
+                                    <span class="nav__name">Notifications</span>
+                                    <i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i>
+                                </a>
+
+                                <div class="nav__dropdown-collapse">
+                                    <div class="nav__dropdown-content">
+                                        <a href="#" class="nav__dropdown-item">Blocked</a>
+                                        <a href="#" class="nav__dropdown-item">Silenced</a>
+                                        <a href="#" class="nav__dropdown-item">Publish</a>
+                                        <a href="#" class="nav__dropdown-item">Program</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <a href="#" class="nav__link">
+                                <i class='bx bx-compass nav__icon' ></i>
+                                <span class="nav__name">Explore</span>
+                            </a>
+                            <a href="#" class="nav__link">
+                                <i class='bx bx-bookmark nav__icon' ></i>
+                                <span class="nav__name">Saved</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="#" class="nav__link nav__logout">
+                    <i class='bx bx-log-out nav__icon' ></i>
+                    <span class="nav__name">Log Out</span>
+                </a>
+            </nav>
+        </div>
+
+        <!--========== CONTENTS START ==========-->
+      
+
+<!-- ..........................  BANNER START ------------------------------------- -->
+
+
+
+<section id="home-banner">
+ <div class="row">
+   <div class="col-lg-12">
+       <div class="banner"></div>
+   </div>
+ </div>
+</section>
+
+
+<!-- ..........................  BANNER END ------------------------------------- -->
+
+
+<!-- ..........................  cart START ------------------------------------- -->
+
+
+<div class="container">
+<div class="row">
+  <div class="col-lg-12">
+    <div class="heading cf">
+      <h1>My Cart</h1>
+      <a href="index.html" class="continue">Continue Shopping</a>
+    </div>
+  </div>
+</div>
+
+
+<div class="row">
+<div class="col-lg-8">
+<div class="wrap cf">
+  <div class="cart">
+    <ul class="cartWrap">
+      <li class="items odd">
+        
+    <div class="infoWrap"> 
+        <div class="cartSection">
+        <img src="assets/img/one.jpg" alt="" class="itemImg" />
+          <p class="itemNumber">#QUE-007544-002</p>
+          <h3>Item Name 1</h3>
+        
+           <p> <input type="text"  class="qty" placeholder="3"/> x $5.00</p>
+        
+          <p class="stockStatus"> In Stock</p>
+        </div>  
+    
+        
+        <div class="prodTotal cartSection">
+          <p>$15.00</p>
+        </div>
+              <div class="cartSection removeWrap">
+           <a href="#" class="remove">x</a>
+        </div>
+      </div>
+      </li>
+      <li class="items even">
+        
+       <div class="infoWrap"> 
+        <div class="cartSection">
+         
+        <img src="assets/img/two.jpg" alt="" class="itemImg" />
+          <p class="itemNumber">#QUE-007544-002</p>
+          <h3>Item Name 1</h3>
+        
+           <p> <input type="text"  class="qty" placeholder="3"/> x $5.00</p>
+        
+          <p class="stockStatus"> In Stock</p>
+        </div>  
+    
+        
+        <div class="prodTotal cartSection">
+          <p>$15.00</p>
+        </div>
+              <div class="cartSection removeWrap">
+           <a href="#" class="remove">x</a>
+        </div>
+      </div>
+      </li>
+      
+            <li class="items odd">
+             <div class="infoWrap"> 
+        <div class="cartSection">
+            
+        <img src="assets/img/three.jpg" alt="" class="itemImg" />
+          <p class="itemNumber">#QUE-007544-002</p>
+          <h3>Item Name 1</h3>
+        
+           <p> <input type="text"  class="qty" placeholder="3"/> x $5.00</p>
+        
+          <p class="stockStatus out"> Out of Stock</p>
+        </div>  
+    
+        
+        <div class="prodTotal cartSection">
+          <p>$15.00</p>
+        </div>
+                    <div class="cartSection removeWrap">
+           <a href="#" class="remove">x</a>
+        </div>
+              </div>
+      </li>
+      <li class="items even">
+       <div class="infoWrap"> 
+        <div class="cartSection info">
+             
+        <img src="assets/img/one.jpg" alt="" class="itemImg" />
+          <p class="itemNumber">#QUE-007544-002</p>
+          <h3>Item Name 1</h3>
+        
+          <p> <input type="text"  class="qty" placeholder="3"/> x $5.00</p>
+        
+          <p class="stockStatus"> In Stock</p>
+          
+        </div>  
+    
+        
+        <div class="prodTotal cartSection">
+          <p>$15.00</p>
+        </div>
+    
+            <div class="cartSection ">
+           <a href="#" class="remove">x</a>
+        </div>
+         </div>
+         
+      </li>
+      
+      
+      <!--<li class="items even">Item 2</li>-->
+ 
+    </ul>
+  </div>
+  
+
+</div>
+</div>
+
+<div class="col-lg-4">
+  <div class="subtotal">
+ <div class="row">
+   <div class="col-12">
+     <div class="coupon">
+      <label for="coupon">Have A Promo Code?</label><input type="text" name="promo" placholder="Enter Code" />
+      <a href="#" class="btn">Apply</a>
+
+     </div>
+   </div>
+ </div>
+
+ <div class="row">
+   <div class="col-12">
+     <div class="amount">
+    <div class="total-price sm">
+      <h4>Total price</h4>
+      <p>: 1289.TK</p>
+    </div>
+
+    <div class="total-price sm">
+      <h4>Shipping cost</h4>
+      <p>: 100.TK</p>
+    </div>
+
+    <div class="total-price sm">
+      <h4>Discount</h4>
+      <p>: 10%</p>
+    </div>
+
+    <div class="total-price sm">
+      <h4>VAT.</h4>
+      <p>: 5%</p>
+    </div>
+
+    <div class="total-price sm tt">
+      <h4>Total</h4>
+      <p>: 1032.TK</p>
+    </div>
+    
+    <div class="pbtn">
+      <a href="checkout.html">Continiue Purchace</a>
+    </div>
+    
+  </div>
+ </div>
+  
+
+
+    
+  </div>
+</div>
+
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ..................................................... FOOTER START --------------------------------------------------------- -->
+
+<section id="footer">
+    <div class="container">
+<div class="row">
+    <div class="col-lg-3 col-sm-3 col-md-3">
+       <div class="items"></div>
+    </div>
+    <div class="col-lg-5 col-sm-5 col-md-5">
+        <div class="items"></div>
+    </div>
+    <div class="col-lg-4 col-sm-4 col-md-4">
+        <div class="items"></div>
+    </div>
+
+</div>
+</div>
+</section>
+
+
+
+
+
+
+
+
+
+
+<!-- .......................................................FOOTER END---------------------------------------------------------- -->
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/jquery-1.12.4.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+   <script src="..//amarDokan/assets/js/owl.carousel.js"></script>
+   <script src="..//amarDokan/assets/js/owl.carousel.min.js"></script>
+        <script src="..//amarDokan/assets/js/main.js"></script>
+        <script src="..//amarDokan/assets/js/carousel.js"></script>
+        <script src="..//amarDokan/assets/js/search.js"></script>
+
+        
+
+
+
+            <script>
+                        
+    
+
+$(document).ready(function(){
+
+    $('.on').click(function(event){
+        event.stopPropagation();
+         $(".plate").slideToggle("fast");
+    });
+    $(".plate").on("click", function (event) {
+        event.stopPropagation();
+    });
+});
+
+$(document).on("click", function () {
+    $(".plate").hide();
+});
+
+
+// window.addEventListener('mouseup', function(event){
+//   var box = document.getElementById('.plate');
+//   if(event.target != box){
+//     box.style.display = 'none';
+    
+//   }
+// })
+
+
+
+
+$(document).ready(function(){
+
+$('.on2').click(function(event){
+    event.stopPropagation();
+     $(".plate2").slideToggle("fast");
+});
+$(".plate2").on("click", function (event) {
+    event.stopPropagation();
+});
+});
+
+$(document).on("click", function () {
+$(".plate2").hide();
+});
+            </script>
+
+          
+
+<script>
+
+// Remove Items From Cart
+$('a.remove').click(function(){
+  event.preventDefault();
+  $( this ).parent().parent().parent().hide( 400 );
+ 
+})
+
+// Just for testing, show all items
+  $('a.btn.continue').click(function(){
+    $('li.items').show(400);
+  })
+
+  
+
+
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+</html>

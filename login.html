@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover, shrink-to-fit=no">
+    <meta name="description" content="Suha - Multipurpose Ecommerce Mobile HTML Template">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme-color" content="#100DD1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+   
+    <title>Amar Dokan</title>
+    <!-- Favicon-->
+    <link rel="icon" href="img/icons/icon-72x72.png">
+    <!-- Web App Manifest-->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" />
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/">
+        <link rel="stylesheet" href="..//amarDokan/assets/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="assets/css/cart.css">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
+        <link rel="stylesheet" href="assets/css/pre-loader.css"> 
+        <link rel="stylesheet" href="assets/css/nav.css">
+        <link rel="stylesheet" href="assets/css/login.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="assets/css/styles.css">
+  </head>
+  <body>
+
+
+
+
+
+    <header>
+      <img src="assets/img/logo/logo white.png" alt="">
+     <button id="toggle-menu" class="header-button">Menu</button>
+     <button id="toggle-basket" class="header-button">Cart</button></li>
+     <button id="toggle-search" class="header-button">Search</button></li>
+     <form id="search-form" action="">
+       <fieldset>
+         <input name="search-terms" type="search" placeholder="Search (for example: skirt)" />
+       </fieldset>
+       <input type="submit" value="Ok" />
+     </form>
+   </header>
+
+   <div class="main">
+   </div>
+
+
+<section id="log-reg">
+
+   <div class="l-form">
+               <div class="shape1"></div>
+               <div class="shape2"></div>
+               <div class="container">
+               <div class="form">
+                   <img src="assets/img/login/3255317.jpg" alt="" class="form__img">
+   
+                   <form action="" class="form-content">
+                       <h1 class="form__title">Welcome to <SPAN>Amar Dokan</SPAN></h1>
+   
+                       <div class="form__div form__div-one">
+                           <div class="form__icon">
+                               <i class='bx bx-user-circle'></i>
+                           </div>
+   
+                           <div class="form__div-input">
+                               <label for="" class="form__label">Username</label>
+                               <input type="text" class="form__input">
+                           </div>
+                       </div>
+   
+                       <div class="form__div">
+                           <div class="form__icon">
+                               <i class='bx bx-lock' ></i>
+                           </div>
+   
+                           <div class="form__div-input">
+                               <label for="" class="form__label">Password</label>
+                               <input type="password" class="form__input">
+                           </div>
+                       </div>
+                       <a href="#" class="form__forgot">Forgot Password?</a>
+   
+                       <input type="submit" class="form__button" value="Login">
+                        <p>OR</p>
+                       <input type="submit" class="form__button" value="Create Account">
+   
+                       <div class="form__social">
+                           <span class="form__social-text">You can login with</span>
+   
+                           <a href="#" class="form__social-icon"><i class='bx bxl-facebook' ></i></a>
+                           <a href="#" class="form__social-icon"><i class='bx bxl-google' ></i></a>
+                           <a href="#" class="form__social-icon"><i class='bx bxl-instagram' ></i></a>
+                       </div>
+                   </form>
+               </div>
+   
+           </div>
+          </div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+    <!-- All JavaScript Files-->
+    
+  <!--========== MAIN JS ==========-->
+        <!-- <script src="assets/js/jquery-1.12.4.min.js"></script> -->
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>  
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/owl.carousel.js"></script>
+        <script src="assets/js/owl.carousel.min.js"></script>
+        <script src="assets/js/main.js"></script>
+        <script src="assets/js/carousel.js"></script>
+        <script src="assets/js/search.js"></script>
+        <script src="assets/js/product card.js"></script>
+        <script src="assets/js/scripts.js"></script>
+        <script src="assets/js/pre.js" charset="utf-8"    ></script>
+        <script src="./assets/js/loginRegistration.js"></script>
+        
+
+
+
+
+        <script>
+                    (function($) {
+
+// Handle click on toggle search button
+$('#toggle-search').click(function() {
+  $('#search-form, #toggle-search').toggleClass('open');
+  return false;
+});
+
+// Handle click on search submit button
+$('#search-form input[type=submit]').click(function() {
+  $('#search-form, #toggle-search').toggleClass('open');
+  return true;
+});
+
+// Clicking outside the search form closes it
+$(document).click(function(event) {
+  var target = $(event.target);
+  
+  if (!target.is('#toggle-search') && !target.closest('#search-form').size()) {
+    $('#search-form, #toggle-search').removeClass('open');
+  }
+});
+
+})(jQuery);
+            
+
+
+        </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+
+"use strict"; 
+
+const body = document.body;
+const bgColorsBody = ["#ffb457", "#ff96bd", "#9999fb", "#ffe797", "#cffff1"];
+const menu = body.querySelector(".menu");
+const menuItems = menu.querySelectorAll(".menu__item");
+const menuBorder = menu.querySelector(".menu__border");
+let activeItem = menu.querySelector(".active");
+
+function clickItem(item, index) {
+
+    menu.style.removeProperty("--timeOut");
+    
+    if (activeItem == item) return;
+    
+    if (activeItem) {
+        activeItem.classList.remove("active");
+    }
+
+    
+    item.classList.add("active");
+    body.style.backgroundColor = bgColorsBody[index];
+    activeItem = item;
+    offsetMenuBorder(activeItem, menuBorder);
+    
+    
+}
+
+function offsetMenuBorder(element, menuBorder) {
+
+    const offsetActiveItem = element.getBoundingClientRect();
+    const left = Math.floor(offsetActiveItem.left - menu.offsetLeft - (menuBorder.offsetWidth  - offsetActiveItem.width) / 2) +  "px";
+    menuBorder.style.transform = `translate3d(${left}, 0 , 0)`;
+
+}
+
+offsetMenuBorder(activeItem, menuBorder);
+
+menuItems.forEach((item, index) => {
+
+    item.addEventListener("click", () => clickItem(item, index));
+    
+})
+
+window.addEventListener("resize", () => {
+    offsetMenuBorder(activeItem, menuBorder);
+    menu.style.setProperty("--timeOut", "none");
+});
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

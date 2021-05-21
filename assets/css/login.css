@@ -1,0 +1,236 @@
+/*===== GOOGLE FONTS =====*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+
+/*===== VARIABLES CSS =====*/
+
+/*=== Colores ===*/
+:root{
+    --first-color: #12192C;
+    --text-color: #8590AD;
+}
+
+
+@media screen and (min-width: 768px){
+    :root{
+      
+    }  
+}
+
+/*===== BASE =====*/
+*,::before,::after{
+    box-sizing: border-box;
+}
+body{
+  background: #fff!important;
+    margin: 0;
+    padding: 0;
+    
+}
+#log-reg h1{
+    margin: 0;
+}
+#log-reg a{
+    text-decoration: none;
+}
+#log-reg img{
+    max-width: 100%;
+    height: auto;
+}
+/*===== FORM =====*/
+#log-reg .l-form{
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/*=== Shapes ===*/
+#log-reg .shape1,
+#log-reg .shape2{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+#log-reg .shape1{
+    top: -7rem;
+    left: -3.5rem;
+    background: linear-gradient(180deg, var(--first-color) 0%, rgba(196,196,196,0) 100%);
+}
+#log-reg .shape2{
+    bottom: -6rem;
+    right: -5.5rem;
+    background: linear-gradient(180deg, var(--first-color) 0%, rgba(196,196,196,0) 100%);
+    transform: rotate(180deg);
+}
+/*=== Form ===*/
+#log-reg .form{
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+}
+#log-reg .form-content{
+    width: 420px;
+}
+#log-reg .form__img{
+    display: none;
+}
+#log-reg .form__title{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+#log-reg .form__title span{
+  color: rgb(243, 78, 78);
+}
+
+#log-reg .form__div{
+    position: relative;
+    display: grid;
+    grid-template-columns: 7% 93%;
+    margin-bottom: 1rem;
+    padding: .25rem 0;
+    border-bottom: 1px solid var(--text-color);
+}
+/*=== Div focus ===*/
+#log-reg .form__div.focus{
+    border-bottom: 1px solid var(--first-color);
+}
+
+#log-reg .form__div-one{
+    margin-bottom: 3rem;
+}
+
+#log-reg .form__icon{
+    font-size: 1.5rem;
+    color: var(--text-color);
+    transition: .3s;
+}
+/*=== Icon focus ===*/
+#log-reg .form__div.focus .form__icon{
+    color: var(--first-color);
+}
+
+#log-reg .form__label{
+    display: block;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    font-size: 16px;
+    color: var(--text-color);
+    transition: .3s;
+}
+/*=== Label focus ===*/
+#log-reg .form__div.focus .form__label{
+    top: -10px;
+    font-size: 14px;
+    color: rgb(209, 209, 209);
+}
+
+#log-reg .form__div-input{
+    position: relative;
+}
+#log-reg .form__input{
+    position: absolute;
+    top: 0;
+    left:   10px;
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: none;
+    padding: .5rem .75rem;
+    font-size: 1.2rem;
+    color: var(--first-color);
+    transition: .3s;
+}
+#log-reg .form__forgot{
+    display: block;
+    text-align: right;
+    margin-bottom: 2rem;
+    font-size: 12px;
+    color: rgb(255, 103, 103);
+    font-weight: 500;
+    transition: .5;
+}
+#log-reg .form__forgot:hover{
+    color: var(--first-color);
+    transition: .5s;
+}
+#log-reg .form__button{
+    width: 100%;
+    padding: 1rem;
+    font-size: 14px;
+    outline: none;
+    border: none;
+   margin: 10px 0px;
+    background-color: var(--first-color);
+    color: #fff;
+    border-radius: .5rem;
+    cursor: pointer;
+    transition: .3s;
+}
+#log-reg p{
+  text-align: center;
+  font-size: 12px;
+  font-weight: 500;
+}
+#log-reg .form__button:hover{
+    box-shadow: 0px 15px 36px rgba(0,0,0,.15);
+}
+
+/*=== Form social===*/
+#log-reg .form__social{
+  margin-top: 20px;
+    text-align: center;
+}
+#log-reg .form__social-text{
+    display: block;
+    font-size: 14px;
+    margin-bottom: 1rem;
+}
+#log-reg .form__social-icon{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    margin-right: 1rem;
+    padding: 5px;
+    background-color: var(--text-color);
+    color: #fff;
+    font-size: 22px;
+    border-radius: 50%;
+}
+#log-reg .form__social-icon:hover{
+    background-color: var(--first-color);
+}
+/*===== MEDIA QUERIS =====*/
+@media screen and (min-width: 968px){
+    #log-reg .shape1{
+        width: 400px;
+        height: 400px;
+        top: -11rem;
+        left: -6.5rem;
+    }
+    #log-reg .shape2{
+        width: 300px;
+        height: 300px;
+        right: -6.5rem;
+    }
+
+    #log-reg .form{
+        grid-template-columns: 1.5fr 1fr;
+        padding: 0 2rem;
+    }
+    #log-reg .form__content{
+        width: 320px;
+    }
+    #log-reg .form__img{
+        display: block;
+        width: 700px;
+        justify-self: center;
+    }
+}

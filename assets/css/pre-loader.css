@@ -1,0 +1,36 @@
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.preLoader{
+  width: 100%;
+  background: #fff;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 99999999999999999999;
+  display: flex;
+  justify-content: center;
+align-items:center ;
+}
+
+
+
+.preLoader img{
+
+}
+
+
+.hide{
+  animation: fadeOut 2s forwards;
+}
+
+@keyframes fadeOut{
+  100%{
+      opacity: 0;
+      visibility: hidden;
+  }
+}

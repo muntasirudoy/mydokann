@@ -1,0 +1,369 @@
+
+/* ========== MEDIA QUERIES ==========*/
+/* For small devices reduce search*/
+@media screen and (min-width: 320px) and (max-width:576px) {
+  
+  .header__search {
+    width: 100%!important;
+    height: 35px!important;
+  }
+  .header__icon{
+    font-size: 1rem;
+  }
+.bx{
+  font-size: 26px;
+}
+  .header__search input{
+    font-size: 12px;
+  }
+  .header .cart-wish{
+    display: flex;
+    
+   
+  }
+  .header .cart-wish i{
+    width: 30px;
+    margin-left: 10px;
+    height: 30px;
+    border-radius: 100%;
+   border: 1px solid rgb(170, 170, 170);
+    color: rgb(43, 43, 43);
+    text-align: center;
+   line-height: 30px;
+  }
+
+  #home-category .all-category{
+   padding: 0px 7px;
+    
+  }
+  #home-category .section-name::after {
+
+    width: 92%;
+  }
+  #home-category {
+    margin-top: 30px;
+  }
+/* ////////////////////  banner part ////////////////////// */
+
+#home-banner .inner-header {
+ 
+}
+
+
+
+#home-banner .baheader #banner {
+
+  height: 180px;
+  border-radius: 5px;
+ 
+
+}
+
+
+
+
+
+ /* ////////////        category    content              */
+
+
+ #home-category .plate{
+  height:100px;
+  
+ }
+
+
+
+ #home-category .plate p{
+  font-size: 14px;
+  margin-top: 3px;
+  font-weight: 500;
+
+ }
+
+ #home-category .col-4,
+ #home-category .col-2{
+   padding: 5px;
+ }
+
+
+ #home-flashsale .heading {
+  
+  height: 200px;
+
+ }
+
+/* ///////////////////////////////    top category //////////////////////// */
+
+
+#top-category{
+
+}
+
+#top-products .pcard {
+    margin:0px
+
+}
+
+#top-products {
+  padding: 10px;
+}
+
+ #main-content {
+  margin-top: 30px;
+}
+  #main-content .filter{
+    display: none;
+   margin: 5px 10px
+  }
+  
+  #main-content .top-content  {
+    padding: 15px 20px;
+  }
+  #main-content .top-content .left {
+    display: flex;
+    
+  }
+  #main-content .top-content .left img{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin-top: 5px
+  }
+  #main-content .top-content .left h5{
+    
+    margin-left: 5px;
+  }
+  #main-content .active{
+    display: block;
+  }
+  #main-content .all{
+  display: flex;
+  height: 60px;
+  
+  }
+
+  #main-content .top-content .left img {
+    display: block;
+  }
+
+  #main-content .top-content .left h5 {
+    display: block;
+  }
+
+  #main-content .all{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 10px;
+    }
+  #main-content .top-content .right{
+ 
+    margin-right: 0px;
+  }
+  #single-product .image {
+    width: 100%;
+  }  
+  #single-product .details h1 {
+    font-size: 20px;
+    
+}
+
+
+#single-product .details ul li span {
+  margin-right: 8px;
+  
+}
+
+#single-product .details ul li .order{
+  color: green;
+}
+
+
+#single-product .details h2 {
+  font-size: 26px;
+}
+#single-product .details .vat {
+  font-size: 14px;
+}
+#single-product .details .short-description h4 {
+  font-size: 16px;
+
+}
+  #single-product .details .short-description ul li {
+  font-size:14px ;
+}
+
+#single-product .details .cart-total a {
+ 
+  font-size: 16px;
+ 
+  font-weight: 500;
+  
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 320px) and (max-width:375px) {}
+
+#top-products .pcard{
+
+
+
+
+}
+
+#top-products .pcard .details h2 {
+ 
+  font-size: 14px;
+}
+
+#top-products .pcard .details .price {
+
+  font-size: 16px;
+  color: red;
+}
+
+
+#main-content {
+  
+}
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------- FOR MEDIUM DEVICE---------------------------------------- */
+
+
+@media screen and (min-width: 577px) and (max-width:767px) {
+
+
+#home-banner{
+  width: 100%;
+  margin: 0px;
+}
+
+
+#home-category .plate{
+  height:100px;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) {
+  
+  
+  
+  
+  .header__toggle {
+    display: none;
+  }
+  .header__logo {
+    display: block;
+  }
+  .header__img {
+    width: 40px;
+    height: 40px;
+    order: 1;
+  }
+
+  #home-banner{
+    margin-top: 10px;
+  }
+
+  #home-category .plate{
+    height:110px;
+
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width:992px) {
+  
+#main-content .filter{
+  display: none;
+  width: 100%;
+}
+
+#main-content .top-content  {
+  padding: 15px 20px;
+}
+#main-content .top-content .left {
+  display: flex;
+  
+}
+#main-content .top-content .left img{
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  margin-top: 5px
+}
+#main-content .top-content .left h5{
+
+  margin-left: 5px;
+}
+#main-content .active{
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+/* ////////////  upto 992px screen */
+
+
+@media screen and (min-width: 993px)  {
+
+#home categoru
+
+
+}
