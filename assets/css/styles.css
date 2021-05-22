@@ -25,7 +25,19 @@
   /* product card */
 
 }
- 
+.sticky {
+  position: fixed !important;
+  top: 0 !important;
+  width: 100%;
+  background: #0c0c0cf3;
+  transition: 0.4s;
+  -webkit-box-shadow: 0px 2px 10px 0px rgba(255, 255, 255, 0.2);
+  -moz-box-shadow: 0px 2px 10px 0px rgba(255, 255, 255, 0.2);
+  box-shadow: 0px 2px 10px 0px rgba(253, 253, 253, 0.2);
+  height: 60px;
+}
+
+
 
 
 .row {

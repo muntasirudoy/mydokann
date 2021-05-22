@@ -50,7 +50,19 @@
     });
     
 
+//sticky menu start
 
+$(window).scroll(function(){
+  $scrollamout = $(window).scrollTop();
+  
+  if($scrollamout > 500){
+    $("#navbar").addClass("sticky")
+  }else{
+    $("#navbar").removeClass("sticky")
+  }
+})
+
+//sticky menu end
 
 
 

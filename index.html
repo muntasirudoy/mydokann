@@ -1377,7 +1377,23 @@ window.addEventListener("resize", () => {
 
 </script>
 
+<script>
 
+//sticky menu start
+
+$(window).scroll(function(){
+  $scrollamout = $(window).scrollTop();
+  
+  if($scrollamout > 300){
+    $("header").addClass("sticky")
+  }else{
+    $("header").removeClass("sticky")
+  }
+})
+
+//sticky menu end
+
+</script>
 
 
 
